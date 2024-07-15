@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Title of the dashboard
-st.title('Sample Streamlit Dashboard')
+st.title('Sample Streamlit Dashboard 배고프다')
 
 # Sidebar for user input
 st.sidebar.header('User Input Parameters')
@@ -35,5 +35,3 @@ map_data = pd.DataFrame(
     np.random.randn(100, 2) / [50, 50] + [37.76, -122.4],
     columns=['lat', 'lon'])
 st.map(map_data)
-
-print("배고프다")
